@@ -1,0 +1,71 @@
+.logo {
+  display: flex;
+  justify-content: left;
+  height: 100px;
+  width: 250px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+}
+nav ul li {
+  font-family: "ziclets", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 33px;
+  margin: 15px;
+}
+nav ul li a{
+  text-decoration: none;
+  background: #f85f09;
+  color: #f8f54e;
+  padding: 10px;
+  display: block;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  font-size: 37px;
+  background: #eb2423;
+  color: #fbf34b;
+}
+footer {
+  background: #a9a9a9;
+  padding: 20px;
+  color: #fff;
+}
+
+header h1 {
+    display: flex;
+    justify-content: end;
+    color: #ff4500;
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    -webkit-text-stroke: 1px #fff;
+}
+header h2 {
+    display: flex;
+    justify-content: end;
+    color: #ff4500;
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    -webkit-text-stroke: 1px #fff;
+}
+/*main*/
+
+main {
+  background-image: url(Graphics/Metal_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Menu {
+  padding: 50px;
+  display: block;
+  margin: auto;
+}
